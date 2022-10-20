@@ -1,0 +1,82 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 224, 121, 1);
+}
+
+h1#titulo {
+    color: rgb(52, 123, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    background-color:  rgb(162, 233, 255);
+    position: relative;
+    left: 100px;
+    top: 25px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.divcontainer::before {
+    content: '';
+    background-color: rgb(209, 255, 255);
+    width: 1165px;
+    height: 820px;
+    position: absolute;
+    border-radius: 16px;
+    opacity: 0.3;
+    bottom: -400px;
+    left: 58px;
+}
+
+.divcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div::after {
+    background-color: rgb(0, 255, 0);
+    opacity: 0.25;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    content: '';
+    left: -25px;
+    bottom: -25px;
+    border-radius: 10%;
+}
+
+h3.producto {
+    font-size: 30px;
+    margin-left: 85px;
+    margin-bottom: 0px;
+}
+
+#ñ {
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+div#secreto {
+    background-color:  rgba(255, 224, 121, 1);
+    color:  rgba(255, 224, 121, 1);
+    width: 50px;
+    height: 75px;
+    margin-left: 0px;
+}
+
+div#secreto:hover {
+    background-color:  rgb(255, 219, 100);
+    color:  rgb(255, 219, 100);
+}
+
+div#secreto:active {
+    background-color: aqua;
+    color: orange;
+}

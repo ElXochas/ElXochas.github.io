@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="index3.css" rel="stylesheet">
+</head>
+<body>
+
+        <h1 id="title"><b><em>Formulario</em></b></h1>
+    <form action="./hola.html">
+
+        <div class="pais">
+        <label for="pais"><b>¿En que país vivis?</b></label>
+        <br>
+        <input type="text" id="pais" name="pais" autocomplete="country" required class="país">
+        </div>
+        <br>
+        <br>
+
+        <div class="tiempo">
+        <label for="tiempo"><b>¿A que hora te Levantas?</b></label>
+        <br>
+        <input type="time" id="tiempo" name="tiempo" required class="hora">
+        </div>
+        <br>
+        <br>
+        
+        <div class="dia">
+        <label for="dia"><b>¿Cuando Naciste?</b></label>
+        <br>
+        <input type="date" id="dia" name="dia" required class="fecha">
+        </div>
+        <br>
+        <br>
+
+        <div class="número">
+        <label for="número"><b>Número Favorito (no escribas otra cosa)</b></label>
+        <br>
+        <b><input type="number" id="número" name="número" required class="numero"></b>
+        </div>
+        <br>
+        <br>
+
+        <div class="color">
+        <label for="color"><b>Color Favorito</b></label>
+        <br>
+        <input type="color" id="color" name="color" required>
+        </div>
+        <br>
+        <br> 
+
+        <div class="deporte">
+        <label for="deporte"><b>Deporte Favorito</b></label>
+        <br>
+        
+        <input type="checkbox" id="deporte" name="deporte"><label>Football</label><br>
+        <input type="checkbox" id="deporte" name="deporte"><label>Rugby</label><br>
+        <input type="checkbox" id="deporte" name="deporte"><label>Tennis</label>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="juegomesa">
+        <label for="juegomesa"><b>Juego de Mesa Favorito</b></label>
+        <br>
+        <input type="text" id="juegomesa" name="juegomesa" autocomplete="country" required class="juegodemesa">
+        </div>
+        <br>
+        <br>
+
+        <div class="helado">
+        <label><b>Helado Favorito</b></label><br>
+        <select class="select">
+            <option class="chocolate">Chocolate</option>
+            <option class="frutilla">Frutilla a la Crema</option>
+            <option class="menta">Menta Granizada</option>
+            <option class="dulcedeleche">Dulce de Leche</option>
+        </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="frutillano">
+        <label> ¿Porque no elegiste Frutilla a la Crema? (si la elegiste no pasa nada) explicaté te doy mucho espacio?</label>
+        </div>
+        <textarea rows="4" class="textarea"></textarea>
+        <br>
+        <br>
+
+        <div class="comprar">
+        <label for="comprar">¿Cual preferirias comprar gratis?</label><br>
+        </div>
+        <input type="radio" id="comprar" name="comprar" value="10.000_BTC"><label class="BTC">10.000 Bitcoin</label><br>
+        <input type="radio" id="comprar" name="comprar" value="AutTesla"><label class="auttesla">Auto Tesla</label><br>
+        <input type="radio" id="comprar" name="comprar" value="Prov"><label class="prov">Provincia</label><br><br>
+        <button type="submit" class="button">Enviar</button><br><br>
+
+    </form>
+</body>
+</html>
